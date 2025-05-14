@@ -1,6 +1,6 @@
 
 import '../App.css';
-import './About.css';
+import './about.css';
 import Navigation from '../components/Navigation.jsx';
 import FooterComponent from '../components/FooterComponent/FooterComponent.jsx';
 import SubpageHeader from '../components/SubpageHeader/SubpageHeader.jsx';
