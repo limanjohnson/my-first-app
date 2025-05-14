@@ -1,0 +1,50 @@
+
+.Hero-Image {
+    background: linear-gradient(#d5a3a3c9, #d5a3a3e6), url('../../../public/home.jpg') no-repeat center center;;
+    /* width:100%; */
+    height:500px;
+    background-size:cover;
+    background-position:center;
+
+    position:relative;
+}
+
+.Ln-First-Header h1 {
+    display:flex;
+
+    position: absolute;
+    bottom: 170px;
+    /* left: 100px; */
+    
+    color: white;
+    text-shadow: 2px 2px 5px Black;
+
+    margin:1em;
+    padding:0;
+}
+
+.Learn-More-Button {
+    position:absolute;
+    bottom:100px;
+    /* left:100px; */
+    margin:2em 3em;
+}
+
+.Learn-More-Button button {
+    background-color: #a57d7d;
+    color:white;;
+
+    /* box-shadow: 2px 2px 2px black; */
+
+    border-radius: 0;
+    border:solid #a57d7d 1px;
+
+    transition: 0.3s;
+}
+
+.Learn-More-Button button:hover {
+    background-color:#816161;
+    color:white;
+
+    border-color:#816161;
+}
