@@ -1,0 +1,50 @@
+.Ln-About-History {
+    display:grid;
+    grid-template-columns:50% 50%;
+
+    gap:2em;
+}
+
+.Ln-About-History-Text, .Ln-About-Vision-Text {
+    display:flex;
+    flex-direction:column;
+    justify-content:center;
+}
+
+
+.Ln-About-Mission {
+    display:grid;
+    grid-template-columns:50% 50%;
+
+    gap:2em;
+}
+
+.Ln-About-Mission-Text {
+    grid-column: 2 / 3;
+
+    display:flex;
+    flex-direction:column;
+    justify-content:center;
+
+
+}
+
+.Ln-About-Mission-Image {
+    grid-column: 1 / 2;
+    grid-row:1/2;
+
+
+}
+
+.Ln-About-Vision {
+    display:grid;
+    grid-template-columns:50% 50%;
+
+    gap:2em;
+
+    margin-bottom:5em;
+}
+
+.Ln-About-History img, .Ln-About-Mission img, .Ln-About-Vision img{
+    width: -webkit-fill-available;
+}
